@@ -4,7 +4,7 @@ import {
 
 export function addThing(thing) {
   return function (dispatch) {
-    dispatch({type: CREATE_THING, thing})
+    dispatch({type: CREATE_THING, thing});
   };
 
 }
